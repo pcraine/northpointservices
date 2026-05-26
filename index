@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northpoint Services | First Aid & Event Medical</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg { background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Header -->
+    <header class="sticky top-0 bg-white shadow-lg z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <img src="npfat.jpeg" alt="Northpoint First Aid" class="h-16">
+                <img src="npem.jpeg" alt="Northpoint Event Medical" class="h-16">
+            </div>
+            <nav class="flex gap-8 text-lg font-medium">
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="firstaid.html" class="hover:text-blue-600">First Aid Training</a>
+                <a href="eventmedical.html" class="hover:text-blue-600">Event Medical</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-bg h-screen flex items-center justify-center text-white relative" 
+             style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('northpoint training.jpeg');">
+        <div class="text-center px-6 max-w-4xl">
+            <h1 class="text-6xl md:text-7xl font-bold mb-6">NORTHPOINT SERVICES</h1>
+            <p class="text-3xl mb-10">Professional First Aid & Event Medical</p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="firstaid.html" class="bg-green-600 hover:bg-green-700 px-10 py-5 rounded-xl text-xl font-semibold">First Aid Training</a>
+                <a href="eventmedical.html" class="bg-blue-600 hover:bg-blue-700 px-10 py-5 rounded-xl text-xl font-semibold">Event Medical Cover</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
